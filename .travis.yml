@@ -7,7 +7,7 @@ script:
   - docker images sturmb/node
 
 before_deploy:
-  - docker login -u sturmb -p 1IY$bO68Q7C!WGLk
+  - docker login -u sturmb -p '1IY$bO68Q7C!WGLk'
 
 deploy:
   provider: script
